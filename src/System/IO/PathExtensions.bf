@@ -8,7 +8,6 @@ namespace System.IO
 			{
 				return;
 			}
-			Contract c;
 			outPath.Clear();
 			outPath.AppendF("{}{}{}", pathA, Path.DirectorySeparatorChar, pathB);
 		}
